@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
-
+        <script src="{{asset('js/jquery-3.3.1.min.js')}}"></script>
+        <script src="{{asset('js/main.js')}}"> </script>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
@@ -65,6 +66,7 @@
         </style>
     </head>
     <body>
+    
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">

@@ -8,7 +8,11 @@
                 <div class="card-header">from</div>
                 <div class="card-body">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Select the way ">
+                        <select class="selectpicker" data-live-search="true">
+                            <option data-tokens="ketchup mustard">Hot Dog, Fries and a Soda</option>
+                            <option data-tokens="mustard">Burger, Shake and a Smile</option>
+                            <option data-tokens="frosting">Sugar, Spice and all things nice</option>
+                        </select>                
                     </div>
                     <div class="row">
                         <div class="col-md-6">
@@ -36,7 +40,13 @@
                 <div class="card-header">To</div>
                 <div class="card-body">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Select the way ">
+                            <select data-live-search="true" data-live-search-style="startsWith" class="selectpicker">
+                                    <option value="4444">4444</option>
+                                    <option value="Fedex">Fedex</option>
+                                    <option value="Elite">Elite</option>
+                                    <option value="Interp">Interp</option>
+                                    <option value="Test">Test</option>
+                            </select>
                     </div>
                     <div class="row">
                             <div class="col-md-6">
